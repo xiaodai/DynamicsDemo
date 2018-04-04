@@ -1,2 +1,10 @@
 # DynamicsDemo
 UIKit力学动画demo
+iOS7上新增加UIKit Dynamic，它可认为是一种物理引擎，能模拟和仿真现实生活中的物理现象如重力、弹性、碰撞吸附等现象，任何遵守了UIDynamicItem协议的对象都可以通过它模拟逼真的物理效果。
+UIView默认已经遵守了UIDynamicItem协议，因此任何UI控件都能做物理仿真
+UICollectionViewLayoutAttributes类默认也遵守UIDynamicItem协议
+
+想要实现这力学动画效果，首先要创建一个力学动画生成器（UIDynamicAnimator），然后使用各种行为进行定制，可用于定制UIDynamicAnimator的行为的类有：UIAttachmentBehavior，UICollisionBehavior，UIGravityBehavior，UIDynamicItemBehavior，UIPushBehavior，UISnapBehavior。
+
+UIDynamics的知识点如下
+
