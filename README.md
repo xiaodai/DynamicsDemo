@@ -7,4 +7,4 @@ UICollectionViewLayoutAttributes类默认也遵守UIDynamicItem协议
 想要实现这力学动画效果，首先要创建一个力学动画生成器（UIDynamicAnimator），然后使用各种行为进行定制，可用于定制UIDynamicAnimator的行为的类有：UIAttachmentBehavior，UICollisionBehavior，UIGravityBehavior，UIDynamicItemBehavior，UIPushBehavior，UISnapBehavior。
 
 UIDynamics的知识点如下
-
+![知识点](https://github.com/xiaodai/DynamicsDemo/blob/master/知识点.png)
